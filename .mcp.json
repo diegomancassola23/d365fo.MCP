@@ -1,0 +1,15 @@
+{
+  "inputs": [],
+  "servers": {
+    "MCPServer": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "J:\\Enterprise-ERP\\MCP-Server\\MCPServer.csproj"
+      ],
+      "env": {}
+    }
+  }
+}
