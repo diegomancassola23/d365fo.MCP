@@ -54,8 +54,42 @@ Where you can define:
   1. $$$ → external prefix placeholder Useful when the prefix must be provided dynamically (e.g. per feature, module, or context)
   2. \### → auto-increment placeholder Automatically resolves the next available numeric suffix by scanning existing labels
   
-  
 This allows prefixes like: TASK$$$_###
+
+🤖 Copilot Instructions (Visual Studio 2022)
+
+Using Copilot instructions is not mandatory, but strongly recommended.
+Without explicit instructions, Copilot may still work, but its behavior can vary.
+By providing instructions, label creation becomes predictable, repeatable, and aligned with project conventions.
+
+* Copilot understands when and how to call the MCP tool
+* Label creation follows project conventions automatically
+* Common mistakes (missing translations, wrong primary language, duplicated labels) are avoided
+* The workflow becomes repeatable and consistent across the team
+
+How to install
+Create a file named:
+* copilot-instructions.md
+* Add it to your Visual Studio 2022 solution as a Solution Item
+(Right click on the solution → Add → New Item → Text File, or Add Existing Item).
+
+🧪 Usage examples with Copilot
+
+This section shows how the MCP behaves when used together with Copilot instructions or not.
+The same MCP tool is used in both cases; what changes is how Copilot interprets the request based on the provided instructions.
+Example 1 – Explicit whitout using instructions
+
+```
+User request:
+Create label using MCP tool "this is my label" and translate it into these languages: IT, DE, ES
+```
+
+Example 2 – Simple request using instructions
+
+```
+User request:
+Create label "this is my label"
+```
 
 🎯 Purpose
 
