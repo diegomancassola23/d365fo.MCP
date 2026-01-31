@@ -24,11 +24,12 @@ Request format:
 
 Rules and conventions:
 - English (en-us) is always the primary language
-- Italian (it) translation is mandatory
+- Translate always is DE, IT and ES
 - If the primary text is not provided in English, it must be translate
 - ForceNewLabel forces the creation of a new label even if it already exists
 - LabelPrefix is optional and may be resolved dynamically by the MCP
 - The tool returns the label code in the format: @LabelFile:LabelCode
 
 Batch limits:
+
 - Maximum 10 labels per request
