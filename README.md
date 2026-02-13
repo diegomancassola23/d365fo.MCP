@@ -1,7 +1,7 @@
 # d365fo.MCP
 
 ![Platform](https://img.shields.io/badge/platform-D365FO-blue)
-![Language](https://img.shields.io/badge/language-X++-orange)
+![Language](https://img.shields.io/badge/language-C%23-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-Development-yellow)
 
