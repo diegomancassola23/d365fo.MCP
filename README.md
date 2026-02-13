@@ -1,5 +1,10 @@
 # d365fo.MCP
 
+![Platform](https://img.shields.io/badge/platform-D365FO-blue)
+![Language](https://img.shields.io/badge/language-X++-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Development-yellow)
+
 🚀 MCP for X++ Development Automation
 
 This repository contains an MCP (Model Context Protocol) project designed to simplify and automate common tasks in X++ development for Dynamics 365 Finance & Operations.
